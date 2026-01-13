@@ -1,0 +1,83 @@
+@import url("./fonts/obsidian.css");
+@import "tailwindcss";
+
+:root {
+  --background: #f2f2f2;
+  --foreground: #171717;
+  --font-obsidian: "Obsidian Background A", "Obsidian Background B";
+
+  --background-grey: #F2F2F2;
+  --dark-black: #080808;
+  --light-black: #3D3D3D;
+  --middle-black: #222222;
+  --dark-grey: #6D6B6B;
+  --middle-grey: #8A8483;
+  --dark-grey-2: #757986;
+  --dark-grey-3: #333A42;
+  --dark-grey-4: #6B6B6B;
+  --highlight-grey: #5F5F5F;
+  --highlight-grey-2: #808080;
+  --light-grey: #E8E8E8;
+  --light-grey-2: #D7D6D6;
+  --light-grey-3: #E9E9E9;
+  --off-white: #FFF;
+  --off-white-2: #F8F7F7;
+  --off-white-3: #F6F6F6;
+  --dark-orange: #E45121;
+  --middle-orange: #F0522D;
+  --light-orange: #F0642D;
+  --highlight-blue: #2C60CA;
+  --actions-blue: #437EF7;
+  --warning-red: #E2333F;
+  --warning-red-2: #F09494;
+}
+
+@theme { 
+  --breakpoint-desktop: 1445px;
+  --breakpoint-sm: 769px;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --font-geist: "Geist", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  --color-background-grey: var(--background-grey);
+  --color-dark-black: var(--dark-black);
+  --color-light-black: var(--light-black);
+  --color-middle-black: var(--middle-black);
+  --color-dark-grey: var(--dark-grey);
+  --color-middle-grey: var(--middle-grey);
+  --color-highlight-grey: var(--highlight-grey);
+  --color-highlight-grey-2: var(--highlight-grey-2);
+  --color-light-grey: var(--light-grey);
+  --color-light-grey-2: var(--light-grey-2);
+  --color-off-white: var(--off-white);
+  --color-off-white-2: var(--off-white-2);
+  --color-off-white-3: var(--off-white-3);
+  --color-dark-orange: var(--dark-orange);
+  --color-middle-orange: var(--middle-orange);
+  --color-light-orange: var(--light-orange);
+  --color-highlight-blue: var(--highlight-blue);
+  --color-dark-grey-2: var(--dark-grey-2);
+  --color-dark-grey-3: var(--dark-grey-3);
+  --color-dark-grey-4: var(--dark-grey-4);
+  --color-warning-red: var(--warning-red);
+  --color-warning-red-2: var(--warning-red-2);
+  --color-light-grey-3: var(--light-grey-3);
+  --color-actions-blue: var(--actions-blue);
+  --shadow-custom: 0px 18px 31px 0 rgba(0, 0, 0, 0.12);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist);
+}
+
+
+.lexaeon-font {
+  font-family: var(--font-obsidian), sans-serif;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,61 @@
+.container {
+    text-align: center;
+}
+
+.spinnerWrapper {
+    position: relative;
+    margin: 0 auto 1rem auto;
+    width: 80px;
+    height: 86px;
+}
+
+.backgroundCircle {
+    position: absolute;
+    inset: 0;
+}
+
+.progressCircle {
+    position: absolute;
+    inset: 0;
+    animation: spin 1.5s linear infinite;
+    transform-origin: center;
+}
+
+.progressArc {
+    animation: progress 2s ease-in-out infinite;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--dark-black);
+}
+
+.description {
+    color: var(--dark-grey);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 6 144;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 75 75;
+        stroke-dashoffset: -37.5;
+    }
+    100% {
+        stroke-dasharray: 6 144;
+        stroke-dashoffset: -150;
+    }
+}

@@ -1,0 +1,33 @@
+.likeButton svg {
+    transition: transform 0.3s ease-out;
+    transform-origin: 0 8px;
+}
+
+.likeButton:hover svg {
+    animation: like 1.867s ease-out;
+    transform-origin: 0 8px;
+}
+
+@keyframes like {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-10deg);
+    }
+    45% {
+        transform: rotate(5deg);
+    }
+    62% {
+        transform: rotate(-2deg);
+    }
+    75% {
+        transform: rotate(1deg);
+    }
+    87% {
+        transform: rotate(-0.5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

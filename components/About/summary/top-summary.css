@@ -1,0 +1,19 @@
+@media (min-width: 1001px) {
+  .add-border-right{
+   position: relative; 
+}
+.add-border-right::after{
+   content: "";
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   right: -42px;
+   height: 55px;
+   border-right: 1px solid var(--light-grey-2);
+}
+}
+@media (max-width: 1445px) {
+  .add-border-right::after{
+    right: 0;
+  }
+}

@@ -25,30 +25,10 @@ An internal dots management platform built with Next.js for tracking and rewardi
 - vitest
 - Vercel (deployment)
 
-## Setup
-
-Clone the repository:
+## User Credential for testing
 
 ```bash
-git clone https://github.com/lexaeon-org/internal-feedback-tool-fe.git
-cd lexaeon-dots
-npm install
-```
+Email: ariful@lexaeon.com
 
-Set up environment variables:
-Create a `.env.local` file in the project root:
-
-
-```env
-NODE_ENV=development
-NEXT_PUBLIC_API_BASE_URL=https://your-api-url.com
-API_BASE_URL=https://your-api-url.com
-```
-
-Run the development server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Password: @Arif_1824
+``` 

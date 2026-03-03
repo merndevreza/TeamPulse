@@ -1,9 +1,9 @@
 
-# Internal Lexaeon Dots Tool
+# Team Pulse
 
 An internal dots management platform built with Next.js for tracking and rewarding employee contributions at Lexaeon.
 
-## Features --
+## Features
 
 - 🔐 **Secure JWT Authentication**: All API requests are protected using JWT-based authentication.
 - 📝 **Admin User Registration**: Only administrators can register new users to ensure secure onboarding.
@@ -15,11 +15,14 @@ An internal dots management platform built with Next.js for tracking and rewardi
 
 ## Tech Stack
 
-- Next.js 15
+- Next.js 16
 - React 19
 - TypeScript
+- JWT
 - Tailwind CSS
-- Node.js 18+
+- Zod
+- Recharts
+- vitest
 - Vercel (deployment)
 
 ## Setup

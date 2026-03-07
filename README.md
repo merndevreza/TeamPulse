@@ -1,17 +1,42 @@
 
-# Team Pulse
+# Team Pulse – Lexaeon Dots
 
-An internal dots management platform built with Next.js for tracking and rewarding employee contributions at Lexaeon.
+**Internal employee recognition & micro-reward platform**  
+A modern Next.js application used at **Lexaeon** to track, give, and visualize "Dots" — a lightweight peer-to-peer appreciation system.
 
-## Features
+> "Small thanks → big culture"
 
-- 🔐 **Secure JWT Authentication**: All API requests are protected using JWT-based authentication.
-- 📝 **Admin User Registration**: Only administrators can register new users to ensure secure onboarding.
-- 🔑 **User Login**: Employees can log in and receive a JWT token internally for secure access to all features.
-- 👤 **Profile Management**: Users can view and update their profile, including image, name, email, and password.
-- 🟢 **Personal Dots Overview**: View a summary of your Dots, including those received and given.
-- 🌐 **View Others' Dots**: See summaries of Dots received and given by other employees.
-- 🎁 **Give Dots**: Easily reward colleagues by giving Dots to any user in the system.
+## ✨ Key Features
+
+### Authentication & Security
+- JWT-based authentication (access + refresh tokens)
+- HttpOnly, Secure, SameSite=Strict cookies
+- Proactive token refresh (2-minute buffer before expiry)
+- Token caching + cleanup (avoids repeated `jwt-decode` calls)
+- Role-based access control (`admin` vs regular users)
+- Strict domain restriction — only `@lexaeon.com` emails allowed
+- XSS prevention through consistent HTML escaping (`sanitizeInput`)
+- Middleware token validation & refresh (Next.js middleware)
+
+### User Experience
+- Clean login form with real-time validation
+- Admin-only user registration/onboarding flow
+- Profile management (name, image, email, password update)
+- Personal Dots dashboard showing:
+  - Dots received
+  - Dots given
+- "About Others" – view summary stats of any colleague
+- Give Dots to any team member (simple & fast flow)
+
+### Dashboard Highlights (admin view)
+- **Dots Given** vs **Dots Received** tabs
+- Visual cards showing behavioral patterns:
+  - Longest time without giving Dots
+  - Most recent givers
+  - Lowest / highest average monthly givers (1-year window)
+  - Top Thumb Up / Loop feedback givers
+
+(Charts powered by **Recharts** – clean bar visualizations)
 
 ## Tech Stack
 

@@ -1,13 +1,11 @@
 
-# Team Pulse – Internal Feedback App
+# Team Pulse
 
-This is an internal employee recognition and micro-reward platform designed to encourage a culture of appreciation within teams.
+This is an internal feedback app designed to encourage a culture of appreciation within teams.
 
-The platform introduces a lightweight peer-to-peer system where employees can send **“Dots”** to recognize colleagues for their contributions, collaboration, and support.
+Employees can send **“Dots”** to recognize colleagues for their contributions, collaboration, and support through a simple peer-to-peer system.
 
-In many organizations, valuable contributions often go unrecognized. Team members help each other, solve problems, and go the extra mile, but appreciation is not always expressed. **Team Pulse** addresses this gap by making recognition simple, quick, and visible.
-
-Beyond peer recognition, the platform also provides insights for managers by visualizing **team engagement patterns**, helping them better understand collaboration and appreciation trends within the organization. 
+Team Pulse helps ensure valuable efforts don’t go unnoticed by making recognition easy and visible, while also helping managers visualize **team engagement and collaboration patterns**.
 
 ## ✨ Key Features
 

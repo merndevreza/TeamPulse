@@ -1,10 +1,13 @@
 
-# Team Pulse – Lexaeon Dots
+# Team Pulse – Internal Feedback App
 
-**Internal employee recognition & micro-reward platform**  
-A modern Next.js application used at **Lexaeon** to track, give, and visualize "Dots" — a lightweight peer-to-peer appreciation system.
+This is an internal employee recognition and micro-reward platform designed to encourage a culture of appreciation within teams.
 
-> "Small thanks → big culture"
+The platform introduces a lightweight peer-to-peer system where employees can send **“Dots”** to recognize colleagues for their contributions, collaboration, and support.
+
+In many organizations, valuable contributions often go unrecognized. Team members help each other, solve problems, and go the extra mile, but appreciation is not always expressed. **Team Pulse** addresses this gap by making recognition simple, quick, and visible.
+
+Beyond peer recognition, the platform also provides insights for managers by visualizing **team engagement patterns**, helping them better understand collaboration and appreciation trends within the organization. 
 
 ## ✨ Key Features
 
